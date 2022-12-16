@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <img class="header-avatar" src="./assets/img/avatar.jpg" alt="avatar">
+            <div class="header-content">
+                <nav class="nav-content">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    </ul>
+                </nav>
+                <div class="header-info">
+                      <h1 class="profile-title">DANIL SOFRYGIN</h1>
+                      <h2 class="prof-subtitle">FRONT-END DEVELOPER</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <div class="left-side">
+                <section class="section" id="contacts">
+                    <h3 class="section-title">Contacts</h3>
+                    <ul class="contacts-list">
+                        <li class="section-item contacts-item">
+                            GitHub: <a class="contacts-link" href="https://github.com/Demicheliss" target="_blank">Demicheliss</a>
+                        </li>
+                        <li class="section-item contacts-item">
+                            E-mail: <a class="contacts-link" href="mailto:demicheeliss@gmail.com" target="_blank">demicheeliss@gmail.com</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h3 class="section-title">Education</h3>
+                        <p>Tyumen Industrial University</p>
+                </section>
+                <section class="section" id="skills">
+                    <h3 class="section-title">Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-item">HTML</li>
+                            <li class="skills-item">CSS</li>
+                            <li class="skills-item">JavaScript</li>
+                            <li class="skills-item">Git</li>
+                        </ul>
+                </section>
+            </div>
+            <div class="right-side">
+                <section class="section" id="about">
+                    <h3 class="right-side-title">About me</h3>
+                    <p class="about-text">I want to learn something new at RS School</p>
+                    <h4 class="about-languages">LANGUAGES:</h4>
+                    <ul class="about-list">
+                        <li class="language-item">Russian - native speaker</li>
+                        <li class="language-item">English - A2</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h3 class="right-side-title">Code</h3>
+                    <pre><code>
+                        function getRndInteger(min, max) {
+                            return Math.floor(Math.random() * (max - min) ) + min;
+                          }
+                    </code></pre>
+                </section>
+                <section class="section" id="projects">
+                    <h3 class="right-side-title">Projects:</h3>
+                    <div class="projects-item">
+                        <a class="project-link" href="https://www.meme-arsenal.com/memes/75005e7363c5bf6ca1df3ae9f65761c7.jpg" target="_blank">
+                            <img class="projects-img" src="https://static01.nyt.com/images/2022/04/04/multimedia/15ai-nocode/15ai-nocode-mobileMasterAt3x.jpg" alt="project1">
+                        </a>
+                        <p class="project-desc">My Project</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a class="github-link" href="https://github.com/Demicheliss" target="_blank">
+                <img class="github-img" src="./assets/img/github-mark-white.svg" height="30" alt="github-mark">My GitHub
+            </a>
+            <p class="footer-year">2022</p>
+            <a class="rsschool-link" href="https://rs.school/js/" target="_blank">
+                <img class="rs-school-img" src="./assets/img/rsschool.svg" height="30" alt="rs-school-logo">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
