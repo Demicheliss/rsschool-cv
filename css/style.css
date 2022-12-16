@@ -28,6 +28,7 @@ body {
     align-items: center;
     color: #202026;
     text-transform: uppercase;
+    padding: 0;
     background-color: #2a1710;
 }
 .header-avatar {
@@ -56,7 +57,6 @@ ul  {
 }
 .nav-item {
   position: relative;
-    margin-right: 20px;
 }
 li {
   display: list-item;
